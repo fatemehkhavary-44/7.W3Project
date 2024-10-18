@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans pro';
+}
+.header{
+    height: 80px;
+    background-color: #fff ;
+    position: relative;
+}
+.header .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.header .left .logo{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.header .left .logo img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 15px auto;
+}
+.header .left .menu{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.header .left .menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 15px;
+}
+.header .left .menu ul li:hover{
+    color: #fff;
+    background-color: #04aa6d;
+}
+.header .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.header .right .menu{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.header .right .menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 20px;
+}
+.header .right .menu ul li:hover{
+    color: #fff;
+    background-color: #04aa6d;
+}
+.header .right .icons{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+.header .right .icons ul li{
+    height: 70px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 10px;
+}
+.section1{
+    height: 550px;
+    background-color: #282A35 ;
+    position: relative;
+}
+.section1 .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+.section1 .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.title{
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+.desc{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 10px;
+    color: #fff;
+}
+.btn1 , .btn2 {
+    width: 200px;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.btn1 {
+    background: #04aa6d;
+}
+.btn2{
+    background: #fff;
+    color: #000;
+}
+.container{
+    position: relative;
+    width: 580px;
+    height: 400px;
+    background-color: #e7e9eb;
+    margin: 70px auto;
+    border-radius: 7px;
+    padding: 25px 15px;
+}
+.code{
+    width: 540px;
+    height: 240px;
+    background-color: #fff;
+    margin: 15px auto;
+    border-left: 5px solid #04aa6d;
+    padding: 10px;
+}
+.btn3{
+    width: 200px;
+    padding: 10px 45px;
+    position: absolute;
+    background: #04aa6d;
+    top: 410px;
+    left: 70px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
